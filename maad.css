@@ -1,0 +1,100 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.Loop {
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+.Loop::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+}
+
+section {
+    position: relative;
+    overflow: auto;
+    text-align: center;
+    -webkit-overflow-scrolling: touch;
+    /* height: clamp(300px, 80%, 700px) */
+}
+
+
+/* Demo styles */
+
+body {
+    font-family: 'Dhurjati';
+    font-weight: normal;
+    color: black;
+    font-size: 200%;
+}
+
+.fl {
+    transform: rotate(90deg);
+    width: 120%;
+    float: left;
+    max-width: 40%;
+    height: auto;
+    overflow: hidden;
+}
+
+.containerz {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    margin-top: -15em;
+}
+
+.red {
+    background: #fff;
+    padding-bottom: 5em;
+}
+
+.green {
+    background: #fff;
+    padding-bottom: 9em;
+}
+
+.blue {
+    background: #fff;
+}
+
+.orange {
+    background: #fff;
+    padding-top: 5em;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    font-family: 'Dhurjati', sans-serif;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: black;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Dhurjati', sans-serif;
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Dhurjati';
+    font-size: 30px;
+    color: black;
+}
